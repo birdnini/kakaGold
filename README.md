@@ -45,3 +45,6 @@ A lightweight global macro four-dimensional radar &amp; LSTM fire control system
 [ BUY ] / [ SELL ]：明确的趋势信号，并附带安全仓位比例（最高不超过 5%）。
 
 [ IDLE ]：当前市场处于底噪震荡区，信号极弱，系统强行锁死扳机，建议空仓观望。
+
+打包方法
+pyinstaller -D -w --hidden-import matplotlib --hidden-import matplotlib.backends.backend_tkagg --hidden-import numpy main.py
