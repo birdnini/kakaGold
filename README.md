@@ -7,14 +7,14 @@ A lightweight global macro four-dimensional radar &amp; LSTM fire control system
 
 ```bash
 pip install torch pandas matplotlib scikit-learn requests pystray Pillow
-
+```
 ### 💻 开发者源码运行 (Installation for Developers)
 
 如果你想打包为文件夹格式运行，打包编译按以下终端指令：
 
 ```bash
 pyinstaller -D -w --hidden-import matplotlib --hidden-import matplotlib.backends.backend_tkagg --hidden-import numpy main.py
-
+```
 
 📖 第一部分：Application Note (用户操作手册)
 欢迎来到 Kaka-Terminal！这是一款运行在本地的轻量级、全自动全球宏观资金流向监控基站。它不仅能为你 24 小时盯盘，还能在你需要时，调用本地的 AI 算力为你测算未来的胜率。
