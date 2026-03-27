@@ -62,9 +62,3 @@ pyinstaller -D -w --hidden-import matplotlib --hidden-import matplotlib.backends
 
 [ IDLE ]：当前市场处于底噪震荡区，信号极弱，系统强行锁死扳机，建议空仓观望。
 
-### 💻 开发者源码运行 (Installation for Developers)
-
-如果你想直接从源码运行本系统，请先确保你的电脑安装了 Python 3.8+ 环境，然后打开终端，运行以下命令安装依赖：
-
-```bash
-pip install torch pandas matplotlib scikit-learn requests pystray Pillow
