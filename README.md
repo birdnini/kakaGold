@@ -13,7 +13,7 @@ pip install torch pandas matplotlib scikit-learn requests pystray Pillow
 如果你想打包为文件夹格式运行，打包编译按以下终端指令：
 
 ```bash
-pyinstaller -D -w --hidden-import matplotlib --hidden-import matplotlib.backends.backend_tkagg --hidden-import numpy main.py
+pyinstaller -D -w --hidden-import matplotlib --hidden-import matplotlib.backends.backend_tkagg --hidden-Kaka_LSTM_Probability_Gold.py
 ```
 
 📖 第一部分：Application Note (用户操作手册)
